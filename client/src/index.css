@@ -1,0 +1,103 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.registerform{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 70vh;
+ flex-direction: column;
+}
+.navbar{
+  background: rgb(238, 235, 235);
+}
+/* .dropdown-menu {
+  max-height: 200px;
+   overflow-y: scroll;
+} */
+.dropdown-menu {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.spinner{
+  margin-top: 30%;
+}
+.loginbtn{
+  margin-top: 5px;
+}
+.backbtn{
+  margin-top: 5px;
+}
+ .productsimg{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 5px;
+}
+.navlink-product{
+  text-decoration: none;
+}
+.update-btn{
+  margin-top: 5px;
+}
+.productshomeimg{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 5px;
+ 
+}
+.cardetails{
+  width: 100px;
+  height: 500px;
+  
+}
+.homeimgtag{
+  height: 300px;
+  width: 286px;
+}
+
+.categoriesdiv{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+ 
+}
+.catbtn{
+  border: 0.1px solid silver;
+  margin: 50px;
+  width: 200px;
+  height: 100px;
+}
+.shipping{
+  color: rgb(14, 13, 13);
+ font-weight: 800;
+}  
+.details{
+  color: rgb(14, 13, 13);
+  font-weight: 800;
+}
+.name{
+  color: rgb(14, 13, 13);
+  font-weight: 800;
+}
+.price{
+  color: rgb(14, 13, 13);
+  font-weight: 800;
+}
+.currentaddress{
+  font-weight: 800;
+  color: black;
+ 
+}
